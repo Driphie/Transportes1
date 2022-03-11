@@ -209,6 +209,18 @@ span{
 .grid_container i{
     margin: 0 15px;
 }
+.wp{
+    bottom: 30px;
+    right: 60px;
+    position:fixed;
+    font-size: 50px;
+    cursor:pointer;
+    z-index: 1;
+}
+.wp a{
+    text-decoration:none;
+    color: green;
+}
 @media screen and (max-width: 952px){
     .logo{
         font-size: 30px;
